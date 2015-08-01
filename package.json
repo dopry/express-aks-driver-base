@@ -1,0 +1,32 @@
+{
+  "name": "aks-storage-memory",
+  "description": "Authoritative PGP Key Server - Memory Storage Driver",
+  "version": "0.0.0",
+  "author": {
+    "name": "Trey Griffith",
+    "email": "trey.griffith@gmail.com"
+  },
+  "keywords": [
+    "pgp",
+    "OpenPGP",
+    "hkp",
+    "key server",
+    "authoritative",
+    "aks",
+    "hakp"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dopry/aks-storage-memory.git"
+  },
+  "homepage": "https://github.com/dopry/aks-storage-memory"
+}
