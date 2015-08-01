@@ -1,11 +1,10 @@
 {
-  "name": "aks-storage-memory",
-  "description": "Authoritative PGP Key Server - Memory Storage Driver",
+  "name": "express-aks-driver-base",
+  "description": "Authoritative PGP Key Server - Base Storage Driver",
   "version": "0.0.0",
-  "author": {
-    "name": "Trey Griffith",
-    "email": "trey.griffith@gmail.com"
-  },
+  "maintainers": [
+    "Darrel O'Pry <darrel.opry@spry-group.com>"
+  ],
   "keywords": [
     "pgp",
     "OpenPGP",
