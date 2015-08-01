@@ -1,4 +1,6 @@
 var assert = require('assert');
+var util = require('util');
+
 var Driver = require('..');
 var driver = new Driver();
 
@@ -118,15 +120,22 @@ describe('AKS Generic Driver', function() {
 
     describe('find', function() {
         it('should error if domain is parameter is missing', function() {
-
+            driver.find(null, function(err, res) {
+                assert.equal(err, 'domain missing');
+            });
         });
 
-        it('should error if domain is missing from db', function() {
+        // the generic driver stores no data. there is no way to check this.
+        // You should implement in your own drivers.
 
-        });
+        // it('should error if domain is missing from db', function() {
+        // });
 
         it('should return an array of properly formatted keys', function() {
-
+            driver.find('example.com', function(err, res) {
+                assert.equal(err, null);
+                assert.equal(true, util.isArray(res));
+            });
         });
     });
 });
