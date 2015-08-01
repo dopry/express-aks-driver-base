@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dopry/aks-storage-memory.git"
+    "url": "git://github.com/dopry/express-aks-driver-base.git"
   },
-  "homepage": "https://github.com/dopry/aks-storage-memory"
+  "homepage": "https://github.com/dopry/express-aks-driver-base"
 }
